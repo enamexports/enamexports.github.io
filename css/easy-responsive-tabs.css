@@ -1,0 +1,147 @@
+body { margin: 0px; padding: 0px; ; }
+.mainmenu .collapse ul ul ul.resp-tabs-list{display:block}
+ul.resp-tabs-list, p { margin: 0px; padding: 0px; } 
+.resp-tabs-list li {background-color:#0b558e  !important;  width: 49%; text-align: center; color:#000; font-weight: 600; font-size: 15px; display: inline-block; padding: 13px 15px; margin: 0; list-style: none; cursor: pointer; float: left; border:0px solid #0b558e ; }
+.resp-tabs-container { padding:25px 0 0px; clear: left; }
+h2.resp-accordion { cursor: pointer; padding: 5px; display: none; }
+.resp-tab-content { display: none; padding: 0px; }
+.resp-tabs-list li.resp-tab-active { background-color: #0b558e  !important; }
+.resp-content-active, .resp-accordion-active { display: block; }
+.resp-tab-content { border: 0px solid #c1c1c1; border-top-color: #5AB1D0; width: 100%; float: left; } 
+h2.resp-accordion { font-size: 15px; border: 1px solid #c1c1c1; border-top: 0px solid #c1c1c1; margin: 0px; padding: 10px 15px; }
+
+h2.resp-tab-active { border-bottom: 0px solid #c1c1c1 !important; margin-bottom: 0px !important; padding: 10px 15px !important; }
+h2.resp-tab-title:last-child { border-bottom: 12px solid #c1c1c1 !important; background: blue; }
+
+/*-----------Vertical tabs-----------*/
+.resp-vtabs ul.resp-tabs-list { float: left; width: 30%; border-right: 1px solid #efefef; min-height: 340px; }
+.resp-vtabs .resp-tabs-list li { display: block; width:100%; padding:5px 12px !important; margin: 0; cursor: pointer; float: none; text-align:left; font-size:14px; font-weight:400; background:#fff !important; border:0; }
+.resp-vtabs .resp-tabs-container { padding: 0px; float: left; width:65%; clear: none;   display: inline-block;   }
+.resp-vtabs .resp-tab-content { border: none; word-wrap: break-word; }
+.resp-vtabs li.resp-tab-active { position: relative; z-index: 1; margin-: 0px !important; border-top: 1px solid #526e9d; border-left: 0px solid #5AB1D0 !important; margin-bottom: 0px !important; border-right: 0px #FFF solid !important; /* background:url("../images/menu-active.png") no-repeat scroll left 10px !important;  */color: #043071}
+.resp-vtabs li.resp-tab-active a,.resp-vtabs li a:hover{ color:#043071 !important}
+.resp-arrow { width: 0; height: 0; float: right; margin-top: 3px; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 12px solid #c1c1c1; } 
+h2.resp-tab-active span.resp-arrow { border: none; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 12px solid #9B9797; } 
+.resp-vtabs .resp-tabs-container.hor_1 {width: 78	%;}
+.resp-vtabs .resp-tab-content.ver_3 {width: 100%;}
+.resp-vtabs .resp-tabs-container.ver_3 {width: 55%;}
+/* .resp-vtabs .resp-tab-content.ver_3_2 {width: 100%;}
+.resp-vtabs .resp-tabs-container.ver_3_2{width: 55%;}  */
+
+
+/* #ChildVerticalTab_1  li.resp-tab-active {color: #043071; background: #fff url("../images/menu-active.png") no-repeat scroll left 10px !important;}
+#ChildVerticalTab_2  li.resp-tab-active {color: #043071; background: #fff url("../images/menu-active.png") no-repeat scroll left 10px !important;}
+#ChildVerticalTab_3  li.resp-tab-active,
+#ChildVerticalTab_4  li.resp-tab-active,
+#ChildVerticalTab_5  li.resp-tab-active,
+#ChildVerticalTab_6  li.resp-tab-active,
+#ChildVerticalTab_7  li.resp-tab-active,
+#ChildVerticalTab_8  li.resp-tab-active,
+#ChildVerticalTab_9  li.resp-tab-active,
+#ChildVerticalTab_10 li.resp-tab-active,
+#ChildVerticalTab_11 li.resp-tab-active,
+#ChildVerticalTab_12 li.resp-tab-active,
+#ChildVerticalTab_13 li.resp-tab-active,
+#ChildVerticalTab_14 li.resp-tab-active,
+#ChildVerticalTab_15 li.resp-tab-active,
+#ChildVerticalTab_16 li.resp-tab-active,
+#ChildVerticalTab_17 li.resp-tab-active,
+#ChildVerticalTab_18 li.resp-tab-active,
+#ChildVerticalTab_19 li.resp-tab-active,
+#ChildVerticalTab_20 li.resp-tab-active{color: #043071; background: #fff url("../images/menu-active.png") no-repeat scroll left 10px !important;} */
+
+.resp-tab-list .resp-tab-item.resp-tab-active a{color: #043071; /* background:url("../images/menu-active.png") no-repeat scroll left 10px !important; */}
+/* #parentHorizontalTab .hor_1  li {color: #000; font-weight:600;} */
+
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active { background: #DBDBDB;/* !important;*/ } 
+.resp-easy-accordion h2.resp-accordion { display: block; } 
+.resp-easy-accordion .resp-tab-content { border: 1px solid #c1c1c1; }
+.resp-easy-accordion .resp-tab-content:last-child { border-bottom: 1px solid #c1c1c1;/* !important;*/ }
+.resp-jfit { width: 100%; margin: 0px; }
+.resp-tab-content-active { display: block; }
+h2.resp-accordion:first-child { border-top: 1px solid #c1c1c1;/* !important;*/ }
+.resp-tabs-container.hor_3{width:71%}
+.resp-tabs-container.ver_3_3_1 {
+	width: 53%;
+}
+.resp-tabs-container.ver_3_2_1 {
+	width: 53%;
+}
+
+
+div#contact-tabs .resp-tabs-list li.resp-tab-active::before {
+    top: 0;
+    content: '';
+    position: absolute;
+    background:#2c2579 !important;
+    width: 100%;
+    height: 4px;
+    left: 0;
+}
+
+div#contact-tabs .resp-tabs-list li.resp-tab-active::after {
+    bottom: -1px;
+    content: '';
+    position: absolute;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 1px;
+    z-index: 9;
+}
+
+@media screen and (min-width:1024px) and (max-width:1069px){
+.mainmenu .collapse ul ul li .tabbing ul{    width: 24%;min-width: auto;}
+#ChildVerticalTab_1 ul {width: 32%;	}
+#ChildVerticalTab_3 ul {width:40%;	display:inline-block !important; float:left;}
+.resp-tabs-list.ver_3_2_1 {
+    width:35% !important;
+}
+ul.resp-tabs-list.ver_3_3_1 {
+    width: 35% !important;
+}
+.resp-vtabs .resp-tabs-container.ver_3 {
+    width: 50%;
+}
+.resp-vtabs .resp-tabs-container.hor_1 { width: 76%; }
+.mainmenu .collapse ul ul li a{    width: 100%; padding: 0; display: block;}
+.resp-vtabs .resp-tabs-container {
+    width:62%;
+}
+.resp-tabs-container.ver_3_2,.resp-tabs-container.ver_3_3,.resp-tabs-container.ver_2_1 {
+    width: 76%;
+}
+ 
+  
+.resp-tabs-container.hor_2,.resp-tabs-container.hor_3,.resp-tabs-container.hor_4,.resp-tabs-container.hor_5 {
+width:76% !important;
+}
+/* .resp-vtabs .resp-tabs-container{width: 59%;} */
+.mainmenu .collapse ul ul ul{min-width: 230px;}
+ 
+	.resp-vtabs ul.resp-tabs-list{    min-height:300px;
+}
+}
+
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 768px) {
+ul.resp-tabs-list { display: none; }
+h2.resp-accordion { display: block; }
+.resp-vtabs .resp-tab-content { border: 1px solid #C1C1C1; }
+.resp-vtabs .resp-tabs-container { border: none; float: none; width: 100%; min-height: 100px; clear: none; }
+.resp-accordion-closed { display: none !important; }
+.resp-vtabs .resp-tab-content:last-child { border-bottom: 1px solid #c1c1c1 !important; }
+#contact-tabs {
+    margin-bottom: 40px !important;
+    float: left;
+}
+h2.resp-accordion {
+    display: block;
+    float: left;
+	margin-top: 9px;
+    width: 100%;
+}
+}
