@@ -85,8 +85,8 @@ jQuery(function ($) {
    if ($('#map').length > 0) {
 
       var contactmap = {
-         lat: -37.816218,
-         lng: 144.964068
+         lat: 22.5534942,
+         lng: 88.3704524
       };
 
       $('#map')
